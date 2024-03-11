@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+ul{
+    list-style: none;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+footer{
+    background-color: #000;
+    height: 580px;
+}
+.footer_top{
+    display: flex;
+    justify-content: space-between;
+}
+.text span{
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    letter-spacing: -0.3px;
+    text-transform: capitalize;
+}
+.text a{
+    padding: 18px 67px;
+    background-color: #FFA343;
+    color: #000;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    text-transform: capitalize;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.icon h3{
+    padding: 82px 0 49px 0;
+    width: 405px;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: -0.3px;
+    text-transform: capitalize;
+}
+.icon p{
+    padding-bottom: 34px;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: -0.205px;
+    text-transform: capitalize;
+}
+.footer_menu{
+    display: flex;
+    justify-content: space-between;
+}
+.footer_menu ul li a{
+    color: #FFF;
+font-family: Open Sans;
+font-size: 19px;
+font-style: normal;
+font-weight: 400;
+line-height: 0px; /* 0% */
+letter-spacing: -0.205px;
+text-transform: capitalize;
+
+}
+.footer_menu ul{
+    padding-top: 90px;
+    line-height: 40px;
+}
+.footer_menu p{
+    color: #FFD1A0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: -0.232px;
+    text-transform: capitalize;
+}
+.copyright p{
+    padding-top: 100px;
+    color: #FFF;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    opacity: 0.5;
+}
